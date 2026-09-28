@@ -1,0 +1,69 @@
+
+body {
+    background-image: url('blackwall.jpeg');
+    color: white; 
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    text-align: center; 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
+}
+.links{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    transition: 0.3s;
+}
+.links a {
+    text-decoration: none; 
+    background-color: #222;
+    color: white; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+}
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+    object-fit: cover;  
+    display: block;
+    margin: 0 auto 20px auto;
+}
+.top-title {
+    color: #c77dff; 
+    font-size: 20px; 
+    letter-spacing: 2px; 
+    display: block; 
+    margin-bottom: 20px; 
+}
+.card {
+    border: 2px solid #7a1cc2;
+    border-radius: 10px; 
+    max-width: 400px;
+    margin: 40px auto; 
+    padding: 30px;
+    text-align: center;
+    background-color: black;
+    transition: 0.3s ease;
+}
+.card:hover {
+    border-color: #c77dff;
+    box-shadow: 0 0 20px rgba(199, 125, 255, 0.5); 
+    transform: translateY(-5px); 
+}
+.links a:hover {
+    transform: scale(1.05); 
+    opacity: 0.8;
+}
+ul {
+    display: inline-block;
+    text-align: left;
+    list-style-type: circle;
+    padding: 20px;
+    margin: 0 auto;
+}
+h1 {
+    color: white;
+    text-shadow: 0 0 15px rgba(199, 125, 255, 0.8); 
+    letter-spacing: 1px; 
+}
