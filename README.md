@@ -1,6 +1,6 @@
 Personal Portfolio
 
-A responsive personal portfolio website built from scratch for the Coding Ninjas recruitment task.
+A responsive personal portfolio website built from scratch.
 
 Live Site: [https://github.com/Thorfinn433/Personal-portfolio](https://thorfinn433.github.io/Personal-portfolio/)
 
